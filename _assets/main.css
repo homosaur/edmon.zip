@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Redacted&display=swap');
+:root {
+  font-size: 1.2em;
+}
 
 html {
   height: 100%;
@@ -9,8 +11,7 @@ body {
     display: flex;
     align-items: stretch;
 
-    font-family: 'Redacted', sans-serif;
-    font-size: 2em;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
     margin: 0;
     padding: 0;
@@ -20,12 +21,14 @@ body {
 }
 
 a:any-link {
-  color: #8a508f;
+  background-color: #8a508f;
   transition: 1s;
+  padding: 0 0.1em;
+  color: white;
 }
 
 a:hover {
-  color: #ff6361;
+  background-color: #ff6361;
 }
 
 div {
