@@ -1,5 +1,6 @@
 {
-  "editor.rulers": [
-    80, 120
+  "deno.enable": true,
+  "cSpell.words": [
+    "edmon"
   ]
 }
